@@ -77,15 +77,15 @@ p {
  }
 
 .form-item__second {
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.form-item__second {
+  justify-content: center;
+  align-items: flex-start;
   font-size: 1.5rem;
-  
+  display: flex;
+  flex-direction: column;
 }
-
+.form-item__second > * {
+  border: 2px solid green;
+}
 textarea {
   flex-basis: 50%;
 }
