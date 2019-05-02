@@ -4,7 +4,7 @@
   --surveyBgMain:  #FAFAFA;
   --surveyBgSecond: #959697;
   --surveyDistinct:  #4557bb;
-  --surveyDanger: rgb(211, 59, 59);
+  --surveyDanger: rgb(233, 41, 41);
 }
 
 html {
@@ -102,3 +102,20 @@ select:active {
   border: 2px solid var(--surveyDanger);
 }
 
+
+
+.fine {
+  color: var(--surveyDanger);
+  font-size: 70%;
+  padding: .5rem 1.5rem;
+  text-align: center;
+}
+
+.submit-btn {
+  color: var(--surveyBgMain);
+  background-color: var(--surveyDistinct);
+  font-size: 100%;
+  padding: 1rem 1.543rem;
+  display: block;
+  margin: 0 auto;
+}
