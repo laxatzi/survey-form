@@ -90,7 +90,7 @@ input,
 select {
   border: 1px solid var(--surveySecond);
   border-radius: 5px;
-  padding: .5rem 1.5rem;
+  padding: .5rem 1rem;
 }
 
 textarea:focus,
@@ -147,5 +147,40 @@ span.aster {
 }
 
 @media screen and (max-width: 500px) {
+  .container {
+    width: 90%;
+    padding: .75rem 1.75rem;
+  }
+  .form-item {
+    flex-direction: column;
+  }
 
+  .form-item__first,
+.form-item__second {
+  flex: 1;
+  display: flex;
+}
+ .form-item__first  {
+   justify-content: start;
+   align-items: center;
+ }
+
+.form-item__second {
+  justify-content: start;
+  align-items: center;
+}
+textarea,
+input,
+select {
+  border: 1px solid var(--surveySecond);
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  width: 80%;
+}
+label {
+  margin-bottom: 1rem;
+}
+label:last-of-type {
+  margin-bottom: 0;
+}
 }
