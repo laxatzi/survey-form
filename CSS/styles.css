@@ -1,9 +1,10 @@
 :root {
-  --surveyMainColor: #222;
-  --surveyBgMainColor:  #FAFAFA;
-  --surveyBgSecondColor: #444857;
-  --surveyDistinctColor:  #4557bb;
-  --surveyDangerColor: rgb(211, 59, 59);
+  --surveyMain: #222;
+  --surveySecond: rgb(102, 102, 102);
+  --surveyBgMain:  #FAFAFA;
+  --surveyBgSecond: #444857;
+  --surveyDistinct:  #4557bb;
+  --surveyDanger: rgb(211, 59, 59);
 }
 
 html {
