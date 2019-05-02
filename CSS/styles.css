@@ -2,7 +2,7 @@
   --surveyMain: #222;
   --surveySecond: rgb(102, 102, 102);
   --surveyBgMain:  #FAFAFA;
-  --surveyBgSecond: #444857;
+  --surveyBgSecond: #959697;
   --surveyDistinct:  #4557bb;
   --surveyDanger: rgb(211, 59, 59);
 }
@@ -22,7 +22,7 @@ body {
   margin: 0;
   padding: 0;
   color: var(--surveyMainColor);
-  background-color: #f0f0f0;
+  background-color: var(--surveyBgSecond);
   font-family: "Lato", helvetica, arial, sans-serif;
   font-size: 1.75rem;
   text-shadow: 0, 2px, 0 rgba(0,0,0, .07);
@@ -30,12 +30,32 @@ body {
   overflow-y: scroll; 
 }
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-align: center;
+}
 p {
   line-height: 1.45;
   margin-bottom: 1.5rem;
+  text-align: center; 
+  font-weight: 300px;
+  font-size: 1.6rem;
 }
 
+.container {
+  background-color: var(--surveyBgMain);
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
 .form-item {
   border: 1px solid red;
 }
