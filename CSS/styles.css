@@ -1,7 +1,9 @@
 :root {
-  --timelineMainColor: #222;
-  --timelineSecondaryColor:  #fff;
-  --timelineBgColor:  #4557bb;
+  --surveyMainColor: #222;
+  --surveyBgMainColor:  #FAFAFA;
+  --surveyBgSecondColor: #444857;
+  --surveyDistinctColor:  #4557bb;
+  --surveyDangerColor: rgb(211, 59, 59);
 }
 
 html {
@@ -18,10 +20,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #222;
+  color: var(--surveyMainColor);
   background-color: #f0f0f0;
   font-family: "Lato", helvetica, arial, sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.75rem;
   text-shadow: 0, 2px, 0 rgba(0,0,0, .07);
   -webkit-overflow-scrolling: touch;   
   overflow-y: scroll; 
