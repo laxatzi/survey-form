@@ -91,6 +91,7 @@ select {
   border: 1px solid var(--surveySecond);
   border-radius: 5px;
   padding: .5rem 1rem;
+  width: 80%;
 }
 
 textarea:focus,
@@ -172,10 +173,7 @@ span.aster {
 textarea,
 input,
 select {
-  border: 1px solid var(--surveySecond);
-  border-radius: 5px;
-  padding: 1rem 1.5rem;
-  width: 80%;
+   padding: 1rem 1.5rem;
 }
 label {
   margin-bottom: 1rem;
@@ -184,3 +182,4 @@ label:last-of-type {
   margin-bottom: 0;
 }
 }
+
