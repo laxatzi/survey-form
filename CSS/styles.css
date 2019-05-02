@@ -81,8 +81,7 @@ p {
   justify-content: center;
   align-items: flex-start;
   font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 textarea,
@@ -92,8 +91,11 @@ select {
   border-radius: 5px;
   padding: .5rem 1rem;
   width: 80%;
+  
 }
-
+input[type="submit"] {
+  width: 25%;
+}
 textarea:focus,
 input:focus,
 select:focus,
@@ -102,7 +104,12 @@ input:active,
 select:active {
   border: 2px solid var(--surveyDanger);
 }
-
+label {
+  margin-bottom: 1rem;
+}
+label:last-of-type {
+  margin-bottom: 0;
+}
 .fine {
   color: var(--surveyDanger);
   font-size: 70%;
@@ -144,7 +151,9 @@ span.aster {
     padding: 1rem 1.543rem;
     font-size: 80%;
   }
-
+  input[type="submit"] {
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -174,12 +183,8 @@ textarea,
 input,
 select {
    padding: 1rem 1.5rem;
+   width: 100%;  
 }
-label {
-  margin-bottom: 1rem;
-}
-label:last-of-type {
-  margin-bottom: 0;
-}
+
 }
 
