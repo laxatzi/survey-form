@@ -50,7 +50,7 @@ p {
 .container {
   background-color: var(--surveyBgMain);
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   flex-direction: column;
   border: 1px solid transparent;
@@ -64,6 +64,7 @@ p {
 .form-item {
   border: 1px solid red;
   display: flex;
+  padding: .5rem 0;
 }
 .form-item__first,
 .form-item__second {
@@ -84,9 +85,6 @@ p {
   flex-direction: column;
 }
 
-textarea {
-  flex-basis: 50%;
-}
 textarea,
 input,
 select {
@@ -103,3 +101,4 @@ input:active,
 select:active {
   border: 2px solid var(--surveyDanger);
 }
+
