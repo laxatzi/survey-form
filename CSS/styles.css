@@ -56,6 +56,23 @@ p {
   border: 1px solid transparent;
   border-radius: 5px;
 }
+.survey-form {
+  display: flex;
+  flex-direction: column;
+}
+
 .form-item {
   border: 1px solid red;
+  display: flex;
+}
+.form-item__first,
+.form-item__second {
+  flex: 1;
+}
+ .form-item__first  label {
+   text-align: right;
+ }
+.form-item__second {
+  justify-content: flex-start;
+  align-items: center;
 }
