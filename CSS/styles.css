@@ -68,10 +68,14 @@ p {
 .form-item__first,
 .form-item__second {
   flex: 1;
+  display: flex;
 }
- .form-item__first  label {
-   text-align: right;
+ .form-item__first  {
+   justify-content: flex-end;
+   align-items: center;
+   padding: 1rem 3rem;
  }
+
 .form-item__second {
   justify-content: flex-start;
   align-items: center;
