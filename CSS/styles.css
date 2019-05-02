@@ -1,0 +1,34 @@
+:root {
+  --timelineMainColor: #222;
+  --timelineSecondaryColor:  #fff;
+  --timelineBgColor:  #4557bb;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 10px;
+}
+
+*,
+*:before,
+*:after {
+     box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  background-color: #f0f0f0;
+  font-family: "Lato", helvetica, arial, sans-serif;
+  font-size: 1.7rem;
+  text-shadow: 0, 2px, 0 rgba(0,0,0, .07);
+  -webkit-overflow-scrolling: touch;   
+  overflow-y: scroll; 
+}
+
+
+p {
+  line-height: 1.45;
+  margin-bottom: 1.5rem;
+}
