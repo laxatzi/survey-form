@@ -80,18 +80,19 @@ p {
   justify-content: flex-start;
   align-items: center;
 }
-.form-item input {
-  padding: .5rem 1.5rem;
-}
+
 .form-item__second {
   font-size: 1.5rem;
+  
 }
 
 textarea {
   flex-basis: 50%;
 }
 textarea,
-input {
-
+input,
+select {
+  border: 1px solid var(--surveySecond);
   border-radius: 5px;
+  padding: .5rem 1.5rem;
 }
