@@ -108,7 +108,7 @@ select:active {
 }
 label {
   margin-bottom: 1rem;
-  border: 1px solid blue;
+  
 }
 label:last-of-type {
   margin-bottom: 0;
@@ -142,7 +142,7 @@ span.aster {
   border: 1px solid red;
   display: flex;
   flex-direction: column;
-  flex:1 1 1;
+  width: 50%;
 }
 
 
