@@ -83,6 +83,7 @@ p {
   font-size: 1.5rem;
   flex-direction: column;
   display: flex;
+  border: 1px solid green;
 }
 
 textarea,
@@ -139,7 +140,11 @@ span.aster {
 .checkbox-section,
 .radio-section {
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  flex:1 1 1;
 }
+
 
 @media screen and (max-width: 700px) {
   
