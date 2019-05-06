@@ -180,6 +180,7 @@ span.aster {
   input[type="submit"] {
     width: 80%;
   }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -210,6 +211,26 @@ input,
 select {
    padding: 1rem 1.5rem;
    width: 100%;  
+}
+
+
+.checkbox-section,
+.radio-section {
+  border: 1px solid red;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.checkbox-section input,
+.radio-section input {
+  flex: 1;
+ 
+}
+.checkbox-section label,
+.radio-section label {
+  flex: 1;
+  font-size: 100%;
 }
 
 }
