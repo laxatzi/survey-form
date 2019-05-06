@@ -231,6 +231,11 @@ select {
 .radio-section label {
   flex: 1;
   font-size: 100%;
+  margin-bottom: 20px;
+}
+.checkbox-section label:last-of-type,
+.radio-section label:last-of-type {
+  margin-bottom: 0;
 }
 
 }
