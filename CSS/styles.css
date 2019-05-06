@@ -162,53 +162,7 @@ span.aster {
 }
 
 @media screen and (max-width: 800px) {
-<<<<<<< HEAD
-=======
-  
-  .container {
-    width: 100%;
-    padding: .75rem 1.75rem;
-  }
-  .form-item__first  {
-     padding: .5rem 1.5rem;
-  }
- 
- .form-item__second {
-    font-size: 90%;
-  }
-  .submit-btn {
-    padding: 1rem 1.543rem;
-    font-size: 80%;
-  }
-  input[type="submit"] {
-    width: 40%;
-  }
-
-.checkbox-section,
-.radio-section {
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.checkbox-section input,
-.radio-section input {
-  flex: 1;
- 
-}
-.checkbox-section label,
-.radio-section label {
-  flex: 1;
-  font-size: 90%;
-  margin-bottom: 20px;
-}
-
-
-}
-
-@media screen and (max-width: 500px) {
->>>>>>> 4a721ae07c09fae68746f3dc04d66a44e6390503
-  .container {
+ .container {
     width: 90%;
     padding: .75rem 17%;
   }
