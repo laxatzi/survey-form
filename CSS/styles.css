@@ -96,7 +96,7 @@ select {
   
 }
 input[type="submit"] {
-  width: 25%;
+  width: 20%;
 }
 textarea:focus,
 input:focus,
@@ -124,7 +124,7 @@ label:last-of-type {
   color: var(--surveyBgMain);
   background-color: var(--surveyDistinct);
   font-size: 100%;
-  padding: 1.5rem 1.543rem;
+  padding: 1.5rem;
   display: block;
   margin: 0 auto;
 }
